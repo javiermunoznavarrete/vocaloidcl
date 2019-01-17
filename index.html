@@ -269,6 +269,7 @@
 <div class="highlight-info">
   <div class="overlay spacer section-clok">
     <div class="">
+      <h3 style=" text-align: center">update to old-new blog</h3>
       <div class="row text-center  wowload fadeInDownBig">
         <div class="col-sm-3 col-xs-6">
           <p id="days" class="clock"></p>
@@ -397,11 +398,11 @@ Contact Ends-->
 <!-- Footer Starts -->
 <div class="footer text-center spacer">
   <p class="wowload flipInX">
-    <a href="https://www.facebook.com/AnimeOldSchoolCL"><i class="fa fa-facebook fa-2x"></i></a> 
-    <a href="https://www.instagram.com/animeoldschool"><i class="fa fa-instagram fa-2x"></i></a> 
+    <a href="https://www.facebook.com/vocacl/"><i class="fa fa-facebook fa-2x"></i></a> 
+    <a href="https://www.facebook.com/groups/vocaloidcl"><i class="fa fa-facebook fa-2x"></i></a> 
     <a href="#"><i class="fa fa-twitter fa-2x"></i></a> 
   </p>
-  Copyright 2017 Suyai Producciones. Todos los derechos reservados .
+  Copyright 2019 Vocaloid.cl. Todos los derechos reservados .
 </div>
 <!-- # Footer Ends -->
 <a href="#home" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
@@ -445,5 +446,22 @@ Contact Ends-->
 <!-- custom script -->
 <script src="assets/script.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG_qPdVxI6EvRBHuu_53fvnDoNSFZzXhM&callback=initMap"></script>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="166272843558491"
+  logged_in_greeting="Hola, en que te podemos ayudar?"
+  logged_out_greeting="Hola, en que te podemos ayudar?">
+</div>
 </body>
 </html>
