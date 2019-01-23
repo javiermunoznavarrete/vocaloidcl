@@ -51,7 +51,7 @@ blueimp.Gallery(
     }
 );
 
-var countDownDate = new Date("Apr 7, 2019 11:00:00").getTime();
+var countDownDate = new Date("Jan 31, 2019 11:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
